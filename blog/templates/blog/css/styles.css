@@ -1,0 +1,100 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	
+}
+.header
+{
+	margin: 0px;
+	height: 120px;
+	background-color: #2a5885;
+}
+.header h1
+{
+	margin: 0px;
+	margin-left: 25px;
+	padding-top: 2%;
+	color: #fff;
+	font: 24pt sans-serif;
+}
+.search ul
+{
+	height: 120px;
+	width: 100%;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	display: flex;
+}
+
+.search ul li 
+{
+	height: 100%;
+	float: left;
+	list-style-type: none;
+	transform: none;
+
+
+}
+.search ul li input
+{
+	height: 100%;
+	width: 100%;
+	border: 0px;
+}
+
+.icon
+{
+	background: url(../images/loopa.jpg) 55% 55% no-repeat;
+	background-size: 80%;
+	width: 10%;
+}
+.input
+{
+	width: 100%;
+	margin-left: 40px;
+}
+.search_box
+{
+	font-size: 30px;
+}
+.tracks ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+.tracks ul li
+{
+	list-style-type: none;
+	transform: none;
+	height: 180px;
+}
+.trackul
+{
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	display: flex;
+	
+}
+.trackul li
+{
+	float: left;
+	height: 100%;
+	float: left;
+	list-style-type: none;
+	transform: none;
+}
+.albomicon
+{
+	width: 180px;
+	background-color: #ffa2a2;
+}
+.trackname
+{
+	width: 80%;
+	background-color: blue;
+}

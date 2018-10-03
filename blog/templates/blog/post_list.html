@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My music</title>
+	//<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+  	<script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+</head>
+<body>
+	<div class="header">
+		<h1>Моя музыка</h1>
+	</div>
+	<div class="search">
+		<ul>
+			<li class="icon"></li>
+			<li class="input">
+				<input type="text" class="search_box" id="audio_search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="    Поиск по музыке">
+			</li>
+
+		</ul>
+	</div>
+	<div class="test_form">
+
+		<form action="/post_test" method="post">
+			{% csrf_token %}
+			
+			<input type="submit" value="submit">
+		</form>
+		
+	</div>
+	<div class="tracks">
+		<ul id="tracks">
+			<ul class="trackul">
+				<li class="albomicon"></li>
+				<li class="trackname">
+				
+				</li>
+
+			</ul>
+			<ul class="trackul">
+				<li class="albomicon"></li>
+				<li class="trackname">
+				
+				</li>
+
+			</ul>
+		</ul>
+
+	</div>
+
+</body>
+</html>
